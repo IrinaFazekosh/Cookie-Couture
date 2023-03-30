@@ -3,7 +3,29 @@
 @import 'reset';
 @import 'global';
 
+.header{
+  padding: 21px 0 25px;
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 
+.menu{
+  &__list{
+    display: flex;
+  }
+  &__list-item + .menu__list-item{
+    padding-left: 64px; 
+  }
+  &__list-link{
+    color: $default;
+    @extend %kollektif-400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
 
 
 

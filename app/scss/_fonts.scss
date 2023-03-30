@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Kollektif';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Kollektif'),
+    url('../fonts/Kollektif.woff2') format('woff2'),
+    url('../fonts/Kollektif.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kollektif-Bold';
+  font-weight: 700;
+  font-style: bold;
+  src: local('Kollektif-Bold'),
+    url('../fonts/Kollektif-Bold.woff2') format('woff2'),
+    url('../fonts/Kollektif-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lena';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Lena'),
+    url('../fonts/Lena.woff2') format('woff2'),
+    url('../fonts/Lena.woff') format('woff');
+  font-display: swap;
+}

@@ -1,5 +1,14 @@
 
 
 body{
+ color: $default;
+ font-size: 18px;
+ line-height: 18px;
+ @extend %lena-400;
+}
 
+.container{
+  max-width: 1331px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
